@@ -14,26 +14,11 @@ class MyApp extends StatelessWidget {
         backgroundColor: Colors.teal,
         body: SafeArea( 
           child: Column ( 
-            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-            crossAxisAlignment: CrossAxisAlignment.stretch,
             children: [
-              Container(
-                height: 50,
-                width: 50,
-                child: Text(" 'tainer One "),
-                color: Colors.greenAccent,
+              CircleAvatar( 
+                radius: 50.0,
+                backgroundColor: Colors.red,
               ),
-              Container(
-                height: 50,
-                width: 50,
-                color: Colors.greenAccent,
-                child: Text(" 'tainer Two "),
-              ),
-              Container(
-                height: 50,
-                width: 50,
-                color: Colors.greenAccent,
-                child: Text(" 'tainer Three "),
               ),
              ],
           ),
