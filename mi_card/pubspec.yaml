@@ -23,3 +23,7 @@ flutter:
     - family: Pacifico
       fonts:
       - asset: fonts/Pacifico-Regular.ttf
+  fonts:
+    - family: Noto Sans HK
+      fonts:
+      - asset: fonts/NotoSansHK-Regular.otf   

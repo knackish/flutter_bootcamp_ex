@@ -28,7 +28,16 @@ class MyApp extends StatelessWidget {
                   fontWeight: FontWeight.bold,
               )
               ),
-             ],
+              Text( 
+                "ISMPYN SYNGIM",
+                style: TextStyle(
+                  fontFamily: 'Noto Sans HK',
+                  fontSize: 20.0,
+                  color: Colors.white24,
+                  fontWeight: FontWeight.bold,
+                )
+              ),  
+            ],
           ),
         ),
       )
