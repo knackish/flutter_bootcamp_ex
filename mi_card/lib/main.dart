@@ -17,8 +17,15 @@ class MyApp extends StatelessWidget {
             children: [
               CircleAvatar( 
                 radius: 50.0,
-                backgroundColor: Colors.red,
+                backgroundImage: AssetImage('images/randphoto.jpg'),
               ),
+              Text( 
+                "lipsom noresm",
+                style: TextStyle(
+                  fontSize: 40,
+                  color: Colors.white,
+                  fontWeight: FontWeight.bold,
+              )
               ),
              ],
           ),
