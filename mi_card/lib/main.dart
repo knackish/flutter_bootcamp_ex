@@ -22,7 +22,8 @@ class MyApp extends StatelessWidget {
               Text( 
                 "lipsom noresm",
                 style: TextStyle(
-                  fontSize: 40,
+                  fontFamily: 'Pacifico',
+                  fontSize: 40.0,
                   color: Colors.white,
                   fontWeight: FontWeight.bold,
               )
