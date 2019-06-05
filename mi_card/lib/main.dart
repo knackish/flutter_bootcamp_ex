@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
-        backgroundColor: Colors.teal,
+        backgroundColor: Colors.pink[300],
         body: SafeArea( 
           child: Column ( 
             mainAxisAlignment: MainAxisAlignment.center,
@@ -21,56 +21,62 @@ class MyApp extends StatelessWidget {
                 backgroundImage: AssetImage('images/randphoto.jpg'),
               ),
               Text( 
-                "lipsom noresm",
+                "Welcome back Paulina,",
                 style: TextStyle(
                   fontFamily: 'Pacifico',
-                  fontSize: 40.0,
+                  fontSize: 32.0,
                   color: Colors.white,
-                  fontWeight: FontWeight.bold,
+                  // fontWeight: FontWeight.bold,
               )
               ),
               Text( 
-                "ISMPYN SYNGIM",
+                "Ready to sign back in?",
                 style: TextStyle(
                   fontFamily: 'Noto Sans HK',
-                  fontSize: 20.0,
-                  color: Colors.white24,
+                  fontSize: 17.0,
+                  color: Colors.deepPurple[800],
                   fontWeight: FontWeight.bold,
                 )
               ),  
-              Card ( 
-                child: ListTile(
-                  leading: Icon( 
-                    Icons.phone,
-                    color: Colors.teal[900],
-                  ), 
-                  title: Text ( 
-                    "(281) 330-8004",
-                    style: TextStyle( 
-                      fontSize: 20.0,
-                      color:  Colors.teal.shade900,
-                      fontFamily: 'Noto Sans HK'),
+              Padding(
+                padding: const EdgeInsets.all(15.0),
+                child: Card ( 
+                  child: ListTile(
+                    leading: Icon( 
+                      Icons.lock,
+                      color: Colors.teal[900],
+                    ), 
+                    title: Text ( 
+                      "Password",
+                      style: TextStyle( 
+                        fontSize: 20.0,
+                        color:  Colors.teal.shade900,
+                        fontFamily: 'Noto Sans HK'),
+                    ),
                   ),
                 ),
               ),
               SizedBox (
-                height: 25.0, 
+                height: 1.0, 
                 width: 150.0,
                 child: Divider(
                   color: Colors.teal.shade200,)
               ),
-              Card ( 
-                child: ListTile(
-                  leading: Icon( 
-                    Icons.email,
-                    color: Colors.teal[900],
-                  ), 
-                  title: Text ( 
-                    "MikeJones2@email.com",
-                    style: TextStyle( 
-                      fontSize: 20.0,
-                      color:  Colors.teal.shade900,
-                      fontFamily: 'Noto Sans HK'),
+              Padding(
+                padding: const EdgeInsets.all(15.0),
+                child: Card (
+                  child: ListTile(
+                    leading: Icon( 
+                      Icons.arrow_back,
+                      color: Colors.teal[900],
+                    ), 
+                    title: Text ( 
+                      "Sign Out",
+                      style: TextStyle( 
+                        fontSize: 20.0,
+                        color:  Colors.teal.shade900,
+                        fontFamily: 'Noto Sans HK'),
+                    ),
                   ),
                 ),
               ),
